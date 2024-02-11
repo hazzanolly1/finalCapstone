@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
-
 import pandas as pd
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
@@ -107,10 +101,3 @@ pdf.chapter_body('Both VADER and spaCyTextBlob were used for sentiment analysis.
 
 # Save the PDF report
 pdf.output('sentiment_analysis_report.pdf')
-
-
-# In[ ]:
-
-
-
-
